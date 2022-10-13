@@ -22,7 +22,7 @@ export default function Works() {
             <div className="card">
             <img src={require("./capture.png")} alt="filmi_beat" />
             <div className="wrapper">
-              <button id="btn">Visit Website</button>
+              <button id="btn"><a href="https://filmibeat.techasoft.com/">Visit Website</a></button>
             </div>
           </div>
             </div>
