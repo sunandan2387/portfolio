@@ -1,5 +1,4 @@
 import "./Topbar.scss";
-import {Link} from 'react-router-dom'
 
 export default function Topbar() {
   return (
@@ -8,10 +7,7 @@ export default function Topbar() {
       <img src={require("./logo.png")} alt="logo" />
       </div>
       <div className="right">
-      <Link to='/hello'>
-      <button id="btn">Say HI!</button>
-        </Link>
-        
+      <button id="btn"><a href="mailto:sunandanlalka@gmail.com">Say HI!</a></button>
       </div>
     </div>
   );

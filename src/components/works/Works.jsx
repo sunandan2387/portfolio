@@ -22,7 +22,7 @@ export default function Works() {
             <div className="card">
             <img src={require("./capture.png")} alt="filmi_beat" />
             <div className="wrapper">
-              <button id="btn"><a href="https://filmibeat.techasoft.com/">Visit Website</a></button>
+              <button id="btn"><a className="stylelink" href="https://filmibeat.techasoft.com/">Visit Website</a></button>
             </div>
           </div>
             </div>
@@ -35,7 +35,7 @@ export default function Works() {
             <img src={require("./skill.png")} alt="skill_mapper" />
             <div className="wrapper">
   
-              <button id="btn">Visit Website</button>
+              <button id="btn"><a className="stylelink" href="https://github.com/sunandan2387/skill-mapper">Visit Website</a></button>
             </div>
           </div>
             </div>
@@ -44,7 +44,7 @@ export default function Works() {
             <div className="card">
             <img src={require("./rent.png")} alt="buy_rent_properties" />
             <div className="wrapper">
-              <button id="btn">Visit Website</button>
+              <button id="btn"><a className="stylelink" href="https://github.com/sunandan2387/buy-rent-property">Visit Website</a></button>
             </div>
           </div>
             </div>
