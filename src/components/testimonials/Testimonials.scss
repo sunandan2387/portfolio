@@ -1,0 +1,56 @@
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+.testup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 2%;
+    
+    h1{
+        font-size: 2.2em;
+    }
+    h2{
+        font-size: 1.2em;
+        font-family: "Advent Pro", sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
+
+
+
+}
+.item{
+    position: relative;
+    height: 60vh;
+    width: 50vw;
+    min-width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+
+    img{
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: block;
+    }
+}
+
+
+
+
+
+

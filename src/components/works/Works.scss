@@ -1,0 +1,101 @@
+.works {
+  .up {
+    width: 100%;
+    height: 15vh;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    h1 {
+      font-size: 2.1em;
+    }
+    h2 {
+      font-family: "Advent Pro", sans-serif;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 1.4em;
+
+      a {
+        font-family: "Advent Pro", sans-serif;
+        color: rgb(117, 16, 247);
+        text-decoration: none;
+      }
+    }
+  }
+  .down {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .container {
+      width: 80%;
+      height: 75vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .card {
+        border-radius: 20px;
+        margin: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+
+        .wrapper {
+          position: absolute;
+          line-height: 1.2;
+          text-align: center;
+          h2 {
+            font-size: 22px;
+            color: white;
+            font-family: sans-serif;
+          }
+
+          #btn {
+            background: none;
+            font-size: 20px;
+            background-color: rgb(20, 28, 58);
+            padding: 8px 30px;
+            outline: none;
+            margin-top: 10%;
+            letter-spacing: 1px;
+            color: white;
+            border: 2px solid rgb(117, 16, 247);
+            border-radius: 30px;
+            cursor: pointer;
+          }
+        }
+
+        img {
+          display: block;
+          height: 220px;
+          width: 350px;
+          object-fit: cover;
+          z-index: 1;
+        }
+        &:hover {
+          background-color: rgb(20, 28, 58);
+          transition: all 0.7s ease;
+
+          img {
+            opacity: 0.1;
+            z-index: 0;
+          }
+          #btn:hover {
+            background-color: rgb(117, 16, 247);
+            transition: 0.7s ease;
+          }
+        }
+      }
+    }
+  }
+}

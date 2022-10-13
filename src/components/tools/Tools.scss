@@ -1,0 +1,144 @@
+.tools {
+  background-color: transparent;
+  .quote {
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(117, 16, 247);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 1.5rem;
+      font-family: "Advent Pro", sans-serif;
+      letter-spacing: 2px;
+      color: white;
+      font-weight: bold;
+    }
+      #hi {
+        display: flex;
+        font-family: sans-serif;
+        font-size: 38px;
+        letter-spacing: 0;
+        justify-content: center;
+        color: white;
+      }
+    
+  }
+  .up {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(117, 16, 247);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    h2 {
+      color: white;
+      margin-bottom: 2%;
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+  .down {
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(rgb(117, 16, 247) 50%, white 50%);
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    background-color: white;
+    height: 40vh;
+    width: 80%;
+    border-radius: 15px 15px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(to right, lightgrey 80%, white 20%);
+  }
+  .column {
+    background-color: white;
+    width: 26.63vw;
+    height: 40vh;
+  }
+
+  #icon {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #heading {
+    color: rgb(52, 52, 52);
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #description {
+    height: 17vh;
+    width: 100%;
+    text-align: center;
+    p {
+      padding-top: 0.5vh;
+      color: gray;
+    }
+  }
+  @media only screen and (max-width: 860px) {
+    .hide {
+      display: none;
+    }
+    #icon {
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    #heading {
+      color: rgb(52, 52, 52);
+      height: 12vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .box {
+      display: flex;
+      width: 95%;
+      flex-direction: column;
+      
+    }
+    .column {
+      width: 100%;
+      height: 33.3%;
+      display: flex;
+      flex-direction: row;
+    }
+    #icon {
+      height: 70%;
+      width: 50%;
+      float: left;
+    }
+   .combined{
+     float: right;
+   }
+   #heading {
+   padding-top: 20%;
+    height: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #description {
+    
+    height: inherit;
+  }
+  
+  }
+}
