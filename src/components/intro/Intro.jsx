@@ -64,7 +64,7 @@ export default function Intro() {
           </div>
       </div>
       <div className="photo">
-        <img src={require("./profile.jpg")} alt="profile" />
+        <img src={require("./red.PNG")} alt="profile" />
       </div>
     </div>
   );

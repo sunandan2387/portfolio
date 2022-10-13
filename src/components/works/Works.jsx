@@ -4,7 +4,7 @@ export default function Works() {
   return (
     <div className="works">
       <div className="row up">
-        <div className="col">
+        <div className="col mt-5">
         <h1>My Recent Projects</h1>
         </div>
         <div className="col">
@@ -15,53 +15,42 @@ export default function Works() {
         </div>
       </div>
       <div className="down">
-        <div className="container">
-          <div className="card">
-            <img src={require("./home.jpg")} alt="home" />
+        <div className="container-fluid">
+          <div className="row">
+            
+            <div className="col">
+            <div className="card">
+            <img src={require("./capture.png")} alt="filmi_beat" />
             <div className="wrapper">
-              <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
               <button id="btn">Visit Website</button>
             </div>
           </div>
+            </div>
 
-          <div className="card">
-            <img src={require("./home.jpg")} alt="home" />
+        
+
+        
+            <div className="col">
+            <div className="card">
+            <img src={require("./skill.png")} alt="skill_mapper" />
             <div className="wrapper">
-              <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+  
               <button id="btn">Visit Website</button>
             </div>
           </div>
+            </div>
 
-          <div className="card">
-            <img src={require("./home.jpg")} alt="home" />
+            <div className="col">
+            <div className="card">
+            <img src={require("./rent.png")} alt="buy_rent_properties" />
             <div className="wrapper">
-              <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
               <button id="btn">Visit Website</button>
             </div>
           </div>
-
-          <div className="card">
-            <img src={require("./api.png")} alt="api-integration" />
-            <div className="wrapper">
-              <h2>It fetches data from an API and shows it in tabular form with features like search etc.</h2>
-              <button id="btn">Visit Website</button>
             </div>
-          </div>
 
-          <div className="card">
-            <img src={require("./home.jpg")} alt="home" />
-            <div className="wrapper">
-              <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
-              <button id="btn">Visit Website</button>
-            </div>
-          </div>
-
-          <div className="card">
-            <img src={require("./askai.png")} alt="askaisolutions" />
-            <div className="wrapper">
-              <h2>this website is made on wix and is used by Askai solutions</h2>
-              <button id="btn">Visit Website</button>
-            </div>
+         
+        
           </div>
         </div>
       </div>
