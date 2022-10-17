@@ -7,7 +7,7 @@ export default function Topbar() {
       <img src={require("./logo.png")} alt="logo" />
       </div>
       <div className="right">
-      <button id="btn"><a href="mailto:sunandanlalka@gmail.com">Say HI!</a></button>
+      <button id="btn"><a href="https://drive.google.com/file/d/1sIVUhggydXMHzFVUN2Cs6rvDDF9-Auud/view?usp=sharing" download="resume">Resume</a></button>
       </div>
     </div>
   );
