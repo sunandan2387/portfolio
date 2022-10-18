@@ -38,16 +38,9 @@
       background-color: transparent;
     }
     #btn:hover {
-      color: white;
+      color: white !important;
       background-color: rgb(117, 16, 247);
       border: 2px solid rgb(117, 16, 247);
     }
   }
-}
-a{
-  text-decoration: none;
-  color: rgb(117, 16, 247);
-}
-a:hover{
-  color: white;
 }

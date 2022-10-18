@@ -8,7 +8,7 @@ import {BrowserRouter,Routes, Route} from 'react-router-dom'
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
+      <Routes>
     <Route exact path="/" element={<App/>}/>
       <Route exact path="/hello" element={<Hello/>}/>
       </Routes>
