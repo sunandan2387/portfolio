@@ -3,7 +3,7 @@ import "./Topbar.scss";
 export default function Topbar() {
 
   const clicked = () => {
-    window.location.href = 'https://drive.google.com/file/d/1sIVUhggydXMHzFVUN2Cs6rvDDF9-Auud/view?usp=sharing';
+    window.location.href = 'https://drive.google.com/file/d/1NcEkQX1_fe29bFDlrOUJXv7RJTxn3KU8/view?usp=share_link';
 }
 
   return (
