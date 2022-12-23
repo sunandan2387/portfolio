@@ -44,7 +44,7 @@ export default function Works() {
             <div className="card">
             <img src={require("./rent.png")} alt="buy_rent_properties" />
             <div className="wrapper">
-              <button id="btn"><a className="stylelink" href="https://github.com/sunandan2387/buy-rent-property">Visit Website</a></button>
+              <button id="btn"><a className="stylelink" href="https://bestdeals-sunandan.netlify.app/">Visit Website</a></button>
             </div>
           </div>
             </div>
